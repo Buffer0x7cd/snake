@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Board	src/backend.h	/^} Board;$/;"	t	typeref:struct:__anon1
+DOWN	src/backend.h	/^enum Direction { UP, DOWN, LEFT, RIGHT };$/;"	e	enum:Direction
+Direction	src/backend.h	/^enum Direction { UP, DOWN, LEFT, RIGHT };$/;"	g
+FAILURE	src/backend.h	/^enum Status { SUCCESS, FAILURE };$/;"	e	enum:Status
+LEFT	src/backend.h	/^enum Direction { UP, DOWN, LEFT, RIGHT };$/;"	e	enum:Direction
+PointList	src/backend.h	/^struct PointList {$/;"	s
+PointList	src/backend.h	/^typedef struct PointList PointList;$/;"	t	typeref:struct:PointList
+RIGHT	src/backend.h	/^enum Direction { UP, DOWN, LEFT, RIGHT };$/;"	e	enum:Direction
+SUCCESS	src/backend.h	/^enum Status { SUCCESS, FAILURE };$/;"	e	enum:Status
+Status	src/backend.h	/^enum Status { SUCCESS, FAILURE };$/;"	g
+UP	src/backend.h	/^enum Direction { UP, DOWN, LEFT, RIGHT };$/;"	e	enum:Direction
+add_new_food	src/backend.c	/^void add_new_food(Board* board) {$/;"	f
+create_board	src/backend.c	/^Board* create_board(PointList* snake, PointList* foods, int xmax, int ymax) {$/;"	f
+create_cell	src/backend.c	/^PointList* create_cell(int x, int y) {$/;"	f
+create_random_cell	src/backend.c	/^PointList* create_random_cell(int xmax, int ymax) {$/;"	f
+create_snake	src/backend.c	/^PointList* create_snake() {$/;"	f
+display_points	src/frontend.c	/^void display_points(PointList* snake, const chtype symbol) {$/;"	f
+foods	src/backend.h	/^  PointList* foods;$/;"	m	struct:__anon1
+get_next_move	src/frontend.c	/^enum Direction get_next_move(enum Direction previous) {$/;"	f
+is_same_place	src/backend.c	/^bool is_same_place(PointList* cell1, PointList* cell2) {$/;"	f
+list_contains	src/backend.c	/^bool list_contains(PointList* cell, PointList* list) {$/;"	f
+main	src/main.c	/^int main() {$/;"	f
+move_snake	src/backend.c	/^enum Status move_snake(Board* board, enum Direction dir) {$/;"	f
+next	src/backend.h	/^  struct PointList* next;$/;"	m	struct:PointList	typeref:struct:PointList::PointList
+next_move	src/backend.c	/^PointList* next_move(Board* board, enum Direction dir) {$/;"	f
+remove_from_list	src/backend.c	/^bool remove_from_list(PointList* elt, PointList** list) {$/;"	f
+snake	src/backend.h	/^  PointList* snake;$/;"	m	struct:__anon1
+x	src/backend.h	/^  int x;$/;"	m	struct:PointList
+xmax	src/backend.h	/^  int xmax;$/;"	m	struct:__anon1
+y	src/backend.h	/^  int y;$/;"	m	struct:PointList
+ymax	src/backend.h	/^  int ymax;$/;"	m	struct:__anon1
